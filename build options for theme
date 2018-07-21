@@ -1,0 +1,8 @@
+## old ##
+
+--with-selection_color=#aa0000 --with-second_selection_color=#d05757 --with-accent_color=#cf5858 --with-suggestion_color=#c40000 
+
+## new ##
+--with-selection_color=#AA0000 --with-second_selection_color=#801414 --with-accent_color=#8E1515 --with-suggestion_color=#C40000 
+
+
