@@ -24,7 +24,7 @@ Adapta strongly depends on Material Design resources, especially its **fonts**.
 |:-----:|:-----:|:-----:|:-----:|
 |Gnome-Shell >= 3.26|**Roboto**|**NotoSans**|Sans-serif|
 |Gnome-Shell =< 3.24|**NotoSans**||Sans-serif|
-|Cinnamon           |**NotoSans**||Sans-serif|
+|Cinnamon           |**Roboto**||Sans-serif|
 
 > **Note:**
 >
@@ -91,7 +91,7 @@ Supported Desktop Environments
  * GNOME-Shell     >= 3.20.0
  * GNOME-Flashback >= 3.20
  * Budgie-Desktop  >= 10.4
- * Cinnamon        >= 2.8.6
+ * Cinnamon        >= 3.2.0
  * XFce4           >= 4.12.2
  * Mate            >= 1.14.0
  * LXDE            >= 0.99.1 (Gtk+ 2.x only)
@@ -143,7 +143,6 @@ Installation from Git Source
  * inkscape                                  >= 0.91
  * libgdk-pixbuf2.0-dev (gdk-pixbuf2-devel)  >= 2.32.2
  * libglib2.0-dev (glib2-devel)              >= 2.48.0
- * libsass0 (libsass)                        >= 3.3
  * libxml2-utils (libxml2)
  * pkg-config (pkgconfig)
  * sassc                                     >= 3.3
@@ -256,7 +255,7 @@ Visual Studio Code (VS Code) Theme Support
 ------------------------------------------
  1. Linux-themes (Author: SolarLiner): [**Visual Studio Marketplace**](https://marketplace.visualstudio.com/items?itemName=SolarLiner.linux-themes)
 
- 2. Vscode-theme-adapted (Author: About-Code): [**Github**](https://github.com/about-code/vscode-theme-adapted)
+ 2. Vscode-theme-adapted (Author: About-Code): [**Visual Studio Marketplace**](https://marketplace.visualstudio.com/items?itemName=about-code.vscode-theme-adapted)
 
 Extra Browser Support
 ---------------------

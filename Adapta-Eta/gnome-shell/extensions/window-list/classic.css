@@ -42,20 +42,12 @@
 
 .notification { font-weight: 500; }
 
-#panel.bottom-panel, #panel.bottom-panel.solid { height: 25px; border-top-width: 1px; border-bottom-width: 0; border-color: #13191c; background-color: #13191c; background-gradient-drection: vertical; background-gradient-start: #13191c; background-gradient-end: #13191c; color: #CFD8DC; }
+#panel.bottom-panel { height: 25px; border-top-width: 1px; border-bottom-width: 0; border-color: #13191c; background-color: #13191c; background-gradient-drection: vertical; background-gradient-start: #13191c; background-gradient-end: #13191c; color: #CFD8DC; }
 
-#panel.bottom-panel StLabel, #panel.bottom-panel.solid StLabel { text-shadow: none; }
+#panel { height: 25px; border-top-width: 0; border-bottom-width: 1px; border-color: #13191c; background-color: #13191c; background-gradient-drection: vertical; background-gradient-start: #13191c; background-gradient-end: #13191c; color: #CFD8DC; }
 
-#panel.bottom-panel StIcon, #panel.bottom-panel.solid StIcon { icon-shadow: none; }
+#panel .panel-button { color: #CFD8DC; }
 
-#panel, #panel.solid { height: 25px; border-top-width: 0; border-bottom-width: 1px; border-color: #13191c; background-color: #13191c; background-gradient-drection: vertical; background-gradient-start: #13191c; background-gradient-end: #13191c; }
+#panel .panel-button:hover, #panel .panel-button:active, #panel .panel-button:focus, #panel .panel-button:checked { color: #FFFFFF; }
 
-#panel StLabel, #panel.solid StLabel { text-shadow: none; }
-
-#panel StIcon, #panel.solid StIcon { icon-shadow: none; }
-
-#panel .panel-button, #panel.solid .panel-button { color: #CFD8DC; }
-
-#panel .panel-button:hover, #panel .panel-button:active, #panel .panel-button:focus, #panel .panel-button:checked, #panel.solid .panel-button:hover, #panel.solid .panel-button:active, #panel.solid .panel-button:focus, #panel.solid .panel-button:checked { color: #FFFFFF; }
-
-#panel .panel-button:active, #panel .panel-button:focus, #panel.solid .panel-button:active, #panel.solid .panel-button:focus { background-color: rgba(19, 25, 28, 0.01); background-gradient-drection: vertical; background-gradient-start: rgba(19, 25, 28, 0.01); background-gradient-end: rgba(19, 25, 28, 0.01); }
+#panel .panel-button:active, #panel .panel-button:focus { background-color: rgba(19, 25, 28, 0.01); background-gradient-drection: vertical; background-gradient-start: rgba(19, 25, 28, 0.01); background-gradient-end: rgba(19, 25, 28, 0.01); }
